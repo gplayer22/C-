@@ -1,0 +1,34 @@
+#include <iostream>
+#include <string>
+using std::cout;
+using std::cin;
+using std::string;
+void playastom()
+{
+    cout<<"\n Testing \n";
+}
+
+
+
+
+
+int main()
+{ 
+    int a;
+    
+    
+    cout<<" Welcome to tom & jerry the game !!! \n To enter press 1 \n";
+    cin>>a;
+    if (a==1)
+    {
+         string charecter;
+         cout<<" \n tom or jerry  ?? \n";
+        cin>>charecter;
+      if (charecter=="tom")
+      {   
+          playastom();
+      }
+    }
+    return 0;
+    
+}
