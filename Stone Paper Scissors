@@ -1,0 +1,24 @@
+// Making a undefetable stone pape scissors game
+#include<iostream.h>
+#include<conio.h>
+#include<string.h>
+using namespace std;
+int main()
+{    int a=0;
+     cout<<" Welcome to ROCK PAPER SCISSORS !!! \n To enter press 1 !! \n";
+     cin>>a;
+     if(a==1)
+     {   string charecter;
+         cout<<" rock paper or scissors?? \n";
+         cin>>charecter;
+         if(charecter=="rock")
+         {  cout<<"paper!!!! \n hahah you lose";
+          }
+          else if(charecter=="paper")
+          {  cout<<" scissors !!! \n hahaha you lose";
+          }
+          else if(charecter=="scissor")
+          {  cout<<"rock !!! \n hahah you lose";
+          }
+         }
+     
