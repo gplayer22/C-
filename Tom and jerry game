@@ -1,13 +1,23 @@
+
 #include <iostream>
 #include <string>
 using std::cout;
 using std::cin;
 using std::string;
 void playastom()
-{
+{   int dtmr;
     cout<<"\n Testing \n";
+    
+    cout<<"\n TOSS!! \n";
+    cout<<" Enter a number from 1 to 6 \n";
+    cin>>dtmr;
+    
 }
+void playasjerry()
+{  cout<<"\n testing ";
 
+    
+}
 
 
 
@@ -28,7 +38,18 @@ int main()
       {   
           playastom();
       }
+      else if(charecter=="jerry")
+      { 
+          playasjerry();
+      }
+      else
+      {   cout<<" \n sorry wrong choice \n"; 
+      
+      }
+      
     }
+    
     return 0;
     
 }
+
