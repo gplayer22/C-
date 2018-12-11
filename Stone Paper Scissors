@@ -1,12 +1,13 @@
-// Making a undefetable stone pape scissors game
-#include<iostream.h>
+#include<iostream>
 
-#include<string.h>
+#include<string>
 using namespace std;
 int main()
-{    int a=0;
+{    int a=0,i;
      cout<<" Welcome to ROCK PAPER SCISSORS !!! \n To enter press 1 !! \n";
      cin>>a;
+    for( i=1 ; i<=10; i++ )
+    {
      if(a==1)
      {   string charecter;
          cout<<" rock paper or scissors?? \n";
@@ -20,5 +21,12 @@ int main()
           else if(charecter=="scissor")
           {  cout<<"rock !!! \n hahah you lose";
           }
-         }
-     }
+        else
+        {  cout<<" You have entered a wrong choice man!! \n Sorry but i get 1 + score for it!";
+        }
+        cout<<"\n score is "<<i;
+         
+     }         
+        
+    }
+}
