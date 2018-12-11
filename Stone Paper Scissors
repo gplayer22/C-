@@ -1,6 +1,6 @@
 // Making a undefetable stone pape scissors game
 #include<iostream.h>
-#include<conio.h>
+
 #include<string.h>
 using namespace std;
 int main()
